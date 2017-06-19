@@ -1,0 +1,10 @@
+工作区  缓存区  仓库
+把文件推送到缓存区git add 文件名
+把缓存区的东西推送到仓库 git commit -m "once"等描述性信息
+
+git diff  比较工作区和缓存区的区别
+git diff HEAD 比较工作区和仓库的区别
+
+git checkout HEAD 文件名 仓库区覆盖缓存区和工作区
+git reset HEAD  仓库区覆盖缓存区
+git checkout -- 文件名  缓存区覆盖工作区
